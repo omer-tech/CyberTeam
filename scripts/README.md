@@ -1,4 +1,4 @@
-## Linux_NMAP_Parser.sh : 
+## Linux_NMAP_Parser.sh
   This reads an Nmap grepable output file and displays the results based on IP address, port number, or service. The tool is most helpful when you’ve got several machines
 
 ### Command Options
