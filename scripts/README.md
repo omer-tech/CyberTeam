@@ -11,12 +11,15 @@
 
 ### Command Example
 ```sudo nmap -sS -sU <IP ADDRESS> -oG <OUTPUT FILENAME>```
+
 This allows you to run a scan against all TCP and UDP ports
 
 ```grep -v ^# scan.txt > report.txt```
+
 This allows you to remove all the leading '#' from the output and save the edited data to a new file
 
 ```Linux_NMAP_Parser.sh -f report.txt > ParsedOutput.txt```
+
 This parses the results and outputs them to a file
  
 ### OUTPUT SAMPLE:
