@@ -1,13 +1,15 @@
 ## Linux_NMAP_Parser.sh : 
   This reads an Nmap grepable output file and displays the results based on IP address, port number, or service. The tool is most helpful when you’ve got several machines
 
-### Options
+### Command Options
 
 ```-i <IP ADDRESS>``` This allows you to show all info associated with an IP Address
 
 ```-p <PORT #>``` This allows you to view all info associated with a specific port
 
 ```-s <SERVICE NAME>``` This allows you to view all info associated with a specific service
+
+### Command Syntax
 
 ```Linux_NMAP_Parser.sh -f report.txt [-i|-p|-s] <USER INPUT>```
 
@@ -24,7 +26,7 @@ This allows you to remove all the leading '#' from the output and save the edite
 
 This parses the results and outputs them to a file
  
-### OUTPUT SAMPLE:
+### Sample Output
 ```
  Host (Resolved name)
   Port    Status|<Filtered/Open>   Service    Version
@@ -33,4 +35,3 @@ This parses the results and outputs them to a file
 ```
 
 
-## Windows Scripts
