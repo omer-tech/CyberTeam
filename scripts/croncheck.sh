@@ -6,7 +6,7 @@
 # username. crontab must have sudo prefixed to show that data.
 
 
-for username in $(cat /etc/passwd | tr ":" " " | awk '[print $1 }'); 
+for username in $(cat /etc/passwd | tr ":" " " | awk '{print $1 }'); 
 do 
   sudo crontab -u $username -l; 
 done
